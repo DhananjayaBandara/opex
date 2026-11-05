@@ -1,0 +1,84 @@
+[
+  [
+    "DASHBOARDS",
+    [
+      ["Tenant administrator overview", "dashboard/tenant", "dashboards", "overview"],
+      ["Production & line performance", "dashboard/production", "dashboards", "chart"],
+      ["Supervisor & workforce", "dashboard/workforce", "scorecards", "people"]
+    ]
+  ],
+  [
+    "PRODUCTION",
+    [
+      ["Production days", "production/days", "production", "grid"],
+      ["Hourly production", "production/hourly", "production", "clock"],
+      ["Production events", "production/events", "production", "bolt"],
+      ["Approval queue", "production/approvals", "approvals", "check"]
+    ]
+  ],
+  [
+    "WORKFORCE",
+    [
+      ["Employees", "workforce/employees", "employees", "people"],
+      ["Supervisor assignments", "workforce/assignments", "assignments", "roster"],
+      ["Attendance", "workforce/attendance", "attendance", "calendar"],
+      ["Employee scorecards", "workforce/scorecards", "scorecards", "chart"]
+    ]
+  ],
+  [
+    "ORDERS & PLANNING",
+    [
+      ["Buyers", "orders/buyers", "orders", "briefcase"],
+      ["Styles & SMV", "orders/styles", "orders", "tag"],
+      ["Buyer orders", "orders/list", "orders", "orders"],
+      ["Time & Action", "planning/tna", "planning", "calendar"],
+      ["Buyer approvals", "planning/approvals", "planning", "check"],
+      ["Capacity & loading", "planning/capacity", "capacity", "chart"]
+    ]
+  ],
+  [
+    "SUPPLY CHAIN",
+    [
+      ["Materials", "supply/materials", "inventory", "box"],
+      ["Suppliers", "supply/suppliers", "procurement", "briefcase"],
+      ["RFQs", "supply/rfqs", "procurement", "orders"],
+      ["Quotations", "supply/quotations", "procurement", "orders"],
+      ["Purchase orders", "supply/purchase-orders", "procurement", "orders"],
+      ["Goods receipts", "supply/receipts", "procurement", "box"],
+      ["Store & stock", "supply/stock", "inventory", "box"],
+      ["Stock movements", "supply/movements", "inventory", "arrows"]
+    ]
+  ],
+  [
+    "FINANCE",
+    [
+      ["Invoices", "finance/invoices", "finance", "orders"],
+      ["Payments", "finance/payments", "finance", "arrows"]
+    ]
+  ],
+  [
+    "ADMINISTRATION",
+    [
+      ["Company settings", "admin/company", "administration", "settings"],
+      ["Factories", "admin/factories", "administration", "factory"],
+      ["Organization structure", "admin/organization", "administration", "roster"],
+      ["Working calendars", "admin/calendars", "administration", "calendar"],
+      ["Users & memberships", "admin/users", "administration", "people"],
+      ["Roles & permissions", "admin/roles", "administration", "shield"],
+      ["Score configuration", "admin/scores", "administration", "chart"],
+      ["Production event types", "admin/event-types", "administration", "bolt"],
+      ["Notification settings", "admin/notifications", "administration", "bell"],
+      ["Integrations", "admin/integrations", "integrations", "plug"],
+      ["Files / imports / exports", "admin/files", "files", "folder"],
+      ["Audit log", "admin/audit", "audit", "shield"]
+    ]
+  ],
+  [
+    "PLATFORM",
+    [
+      ["Tenants", "platform/tenants", "platform", "factory"],
+      ["Tenant features", "platform/features", "platform", "grid"],
+      ["Platform administration", "platform/settings", "platform", "settings"]
+    ]
+  ]
+]
